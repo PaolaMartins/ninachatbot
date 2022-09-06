@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+	<head>	
+		<meta charset="utf-8">
+		<title>Caça-palavras</title>
+	</head>
+	<body>
+		<h1>Caça-palavras da Nina!</h1>
+		
+		<h3 id = "themeIntro">O tema é: TERMOS DA INFORMÁTICA</span></h3>
+		
+		<button id = "newGameButton" type = "button">O novo jogo</button>
+		<div id = "wordboard"></div>
+		<div id = "wordlist"></div>
+		<button id = "solveButton" type = "button">Veja as respostas!</button>
+
+		<link rel = "stylesheet" type="text/css" href = "css/cacapalavras.css">
+
+		<script src = https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js></script>
+
+		<script src = "js/cacapalavras.js"></script>
+		<script src = "js/controledocacapalavras.js"></script>
+		<script src = "js/logicadecacapalavras.js"></script>
+		<script src = "js/viewdocaca.js"></script>
+
+		<script>	
+			$(document).ready( function() {
+				new WordSearchController("#wordboard", "#wordlist", "#solveButton", "#newGameButton", "#instructions", 
+					"#wordTheme");
+			})
+		</script>
+	</body>
+</html>
