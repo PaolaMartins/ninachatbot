@@ -34,7 +34,7 @@ h1, h2 {
 
 body {
         background-image: linear-gradient( to bottom, #81aae3, transparent, #ebf0f7);
-	background-color: #c3d9fa;
+	background-color: #ffffff;
 
 }
 
@@ -131,7 +131,7 @@ body {
 
 .listWord.found {
 
-	color: rgb(158, 123, 158);
+	color: rgb(173, 15, 173);
 	text-decoration: line-through;
 	
 }
